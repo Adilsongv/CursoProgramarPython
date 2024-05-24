@@ -20,13 +20,13 @@ class FrmBotoes(tk.Frame):
         self.btnPadx = 10
         self.btnPady = 5
 
-        btnMensagem = tk.Button(self, width= self.btnWidth, background="gray", text="Mensagem",
+        btnMensagem = tk.Button(self, width= self.btnWidth, background="gray", text="Mensagem Bt",
                                 command=self.enviarMensagem)
         btnMensagem.grid(row=4, column=0, padx=self.btnPadx, pady=self.btnPady, sticky='WSEW')
         btnMensagem.pack()
 
 
     def enviarMensagem(self):
-        tk.messagebox.showinfo("Mensagem", "Mensagem enviada com sucesso!")
+        tk.messagebox.showinfo("Mensagem", "Mensagem enviada com sucesso!!!")
 
 
